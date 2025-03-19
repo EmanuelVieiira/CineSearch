@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Título "Buscar Filmes" */
+.titulo {
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px; /* Espaçamento do topo */
+  margin-bottom: 24px;
+}
+
+/* Caixa de pesquisa */
+#pesquisa-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+#pesquisa-form input {
+  border: 1px solid #ccc;
+  border-radius: 5px 0px 0px 5px;
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+}
+
+#pesquisa-form button {
+  background: white;
+  border: none;
+  cursor: pointer;
+  width: 40px; /* Define um tamanho clicável */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0% 10% 10% 0%;
+  transition: background 0.3s;
+}
+
+#pesquisa-form button:hover {
+  background-color: #ddd;
+}
+
+#pesquisa-form button img {
+  width: 20px; /* Ajuste o tamanho da lupa */
+  height: auto;
+}
+
+/* Container dos filmes */
+#movies-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 10px;
+  width: 90%;
+  max-width: 1200px;
+  scrollbar-width: thin; /*a largura da barra de rolagem*/
+  scrollbar-color: #888 transparent;
+}
+
+
+/* Cartões de filmes */
+.movie {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #adadad;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  min-width: 250px;
+  height: 237px;
+}
+
+.movie img {
+  width: 130px;
+  
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.movie h3,
+.movie p {
+  margin: 0;
+}
