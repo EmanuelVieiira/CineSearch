@@ -6,8 +6,6 @@
 
 <img width="1490" height="850" alt="image" src="https://github.com/user-attachments/assets/1d25efc8-a6f9-4c7c-ba61-0c56ec2db5aa" />
 
-<!-- Substitua pelo print real da tela de busca com resultados -->
-
 ## 🚀 Funcionalidades
 
 - Busca de filmes por título
