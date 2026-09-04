@@ -1,5 +1,3 @@
-// Chave da API do The Movie Database (TMDb)
-const API_KEY = "49ff7cbf9d0fef90b4b991580b5db7ad";
 
 // URL base para a busca de filmes na API do TMDb
 const BASE_URL = "https://api.themoviedb.org/3/search/movie";

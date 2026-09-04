@@ -1,0 +1,1 @@
+ const API_KEY = "COLE_SUA_CHAVE_AQUI"
